@@ -1,8 +1,13 @@
-
 *{
     padding: 0;
     margin: 0;
     font-family: Inter;
+}
+body {
+    background-image: url("file:///C:/Full Stack/portfolio_2_furpalama/Image/FBG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -54,31 +59,6 @@ nav ul li a:hover {
     display: none;
     font-size: 30px;
     cursor: pointer;
-}
-
-
-@media (max-width: 768px){
-    nav ul{
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        background: black;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
-        gap: 30px;
-    }
-
-    #menu-toggle:checked ~ nav ul{
-        display: flex;
-    }
-
-    .menu-icon{
-        display: block;
-        color: white;
-    }
 }
 
 #Home {
@@ -154,7 +134,7 @@ nav ul li a:hover {
     height: 430px;
     width: auto;
     float: right;
-    margin-top: -290px;
+    margin-top: 20px;
     border-radius: 50%;
     margin-right: 50px;
     border: 4px solid yellow;
@@ -255,14 +235,6 @@ nav ul li a:hover {
     height: 100%;    
 }
 
-
-
-body {
-    background-image: url("file:///C:/portfolio_2_furpalama/Image/FBG.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 #M_skill {
    display: flex;
    flex-wrap: wrap;
@@ -358,7 +330,8 @@ body {
     font-size: 20px;
      background: #1C1C1C;
     border: 1px solid yellow;
-    color: white;}
+    color: white;
+}
 
 #f_btn{
     height: 60px;
@@ -398,12 +371,132 @@ body {
     margin-top: 30px;    
 }
 
+@media (max-width: 768px){
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background: black;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    #menu-toggle:checked ~ nav ul{
+        display: flex;
+    }
+
+    .menu-icon{
+        display: block;
+        color: white;
+    }
+
+    header {
+        padding: 10px 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav ul a {
+        font-size: 20px;
+        padding: 8px 0;
+    }
+     #img_profile {
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-right: 130px;
+        
+    }
+    #p1{
+    color: white;
+   
+    font-size: 40px;
+    text-align: center;
+}
+
+#p2{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    
+    text-align: center;
+}
+
+#p3{
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+#p4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.btn_1{
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    margin-left: 135px;
+}
+.btn_2{
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+}
 
 
 
+    #H_2{
+        flex-direction: column;
+        padding: 20px;
+        font-size: 22px;
+    }
 
+    #paragraph_1, #follow, #cus_p {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 
+    #icon-pic {
+        justify-content: flex-start;
+        padding-left: 20px;
+        gap: 15px;
+    }
 
+    #M_skill {
+        flex-direction: column;
+        padding:
+    }
+    #contact-form{
+  height: 310px;
+    width: 280px;
+}
+#f_name{
+     height: 40px;
+    width: 85%;
+}
+#f_email{
+     height: 40px;
+    width: 85%;
 
+}
+#f_message{
+     height: 80px;
+    width: 85%;
 
+}
+#f_btn{
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+    
 
+}
