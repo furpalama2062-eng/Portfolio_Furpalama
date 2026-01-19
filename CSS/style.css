@@ -4,11 +4,12 @@
     font-family: Inter;
 }
 body {
-    background-image: url("../Image/FBG.png"); /* go up from CSS/ to root, then into Image/ */
+    background-image: url("https://furpalama2062-eng.github.io/Portfolio_Furpalama/Image/FBG.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 header{
     background-color: black;
     height: 60px;
